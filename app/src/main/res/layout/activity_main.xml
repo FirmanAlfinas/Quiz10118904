@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    //Nama : Firman Alfinas//
+    //Nim  : 10118904//
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:background="@color/grey">
+
+        <LinearLayout
+            android:layout_width="378dp"
+            android:layout_height="95dp"
+            android:orientation="horizontal"
+            android:layout_marginRight="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="56dp"
+            android:background="@color/softblue">
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="23dp"
+                android:layout_marginRight="10dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/logo"/>
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="68dp"
+                android:layout_height="20dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginRight="193dp"
+                android:layout_weight="1"
+                android:text="@string/Digiteam"
+                android:textColor="@color/black"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:orientation="horizontal"
+            android:paddingLeft="1dp"
+            android:paddingTop="1dp">
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="44dp"
+                android:layout_height="44dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="23dp"
+                android:layout_marginRight="8dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/ellipse"/>
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="224dp"
+                android:layout_height="24dp"
+                android:layout_marginTop="23dp"
+                android:layout_marginRight="83dp"
+                android:layout_weight="1"
+                android:text="@string/Nama"
+                android:textColor="@color/black"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="373dp"
+            android:layout_height="237dp"
+            android:orientation="vertical"
+            android:layout_marginRight="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="28dp"
+            android:paddingLeft="1dp"
+            android:paddingTop="1dp"
+            android:background="@color/white">
+
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="333dp"
+                android:layout_height="26dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginRight="24dp"
+                android:layout_weight="1"
+                android:text="@string/JamKerja"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="333dp"
+                android:layout_height="22dp"
+                android:layout_marginTop="23dp"
+                android:layout_marginRight="24dp"
+                android:layout_marginLeft="16dp"
+                android:layout_weight="1"
+                android:text="@string/Kerja"
+                android:textColor="@color/black"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="247dp"
+                    android:layout_height="wrap_content"
+                    android:background="@color/green"
+                    android:padding="10dp"
+                    android:text="@string/Jam"
+                    android:textColor="@color/white" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/green2"
+                    android:layout_gravity="end"
+                    android:padding="11sp"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_marginLeft="50dp"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/vector"/>
+
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
